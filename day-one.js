@@ -42,42 +42,9 @@ const movies = [
   Rating: 8
 }
 ]
-console.log(movies[2])
 
 //8. Use `for` to loop through the answer from exercise #7 and print only one property from the object. i.e., given `{ title: "Gone with the Wind" }` you print "Gone with the Wind".
 
-const movies = [
-  {Title: "American Beauty",
-  Year: 1929,
-  Rating: 10
-},
-  {Title: "Finding Nemo",
-  Year: 2014,
-  Rating: 10
-},
-  {Title: "The Notebook",
-  Year: 2016,
-  Rating: 5
-},
-  {Title: "Moana",
-  Year: 2016,
-  Rating: 8
+for (let i = 0; i < movies.length; i++) {
+  console.log(movies[i].Title)
 }
-]
-
-// console.log(movies[2])
-for (let i = 2; i < movies.length; i++)
-console.log(movies[i] + statement);
-
-// arrayLength = movies.length
-// for (i=2;
-
-  // for (let i = 0; i < vowels.length; i++) {
-  // let statement;
-  // if (i === vowels.length - 1) {
-  //   statement = " is sometimes a vowel."
-  // } else {
-  //   statement = " is a vowel."
-  // }
-  // let statement = i === vowels.length - 1 ? " is sometimes a vowel." : " is a vowel."
-  // console.log(vowels[i] + statement);
