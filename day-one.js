@@ -43,6 +43,8 @@ const movies = [
 }
 ]
 
+console.log(movies);
+
 //8. Use `for` to loop through the answer from exercise #7 and print only one property from the object. i.e., given `{ title: "Gone with the Wind" }` you print "Gone with the Wind".
 
 for (let i = 0; i < movies.length; i++) {
